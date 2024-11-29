@@ -186,14 +186,12 @@
 
             soundOffButton.style.display = 'none';
 
-            // Khi nhấn nút Sound on
             soundOnButton.addEventListener('click', () => {
-                video.muted = false; // Bật âm thanh
+                video.muted = false;
                 soundOnButton.style.display = 'none';
                 soundOffButton.style.display = 'block';
             });
 
-            // Khi nhấn nút Sound On
             soundOffButton.addEventListener('click', () => {
                 video.muted = true;
                 soundOffButton.style.display = 'none';
@@ -202,22 +200,19 @@
         });
 
         document.addEventListener('DOMContentLoaded', () => {
-            const svgOpen = document.querySelector('.btnopen'); // Thẻ SVG trên
-            const svgClose = document.querySelector('.btnclose'); // Thẻ SVG dưới
+            const svgOpen = document.querySelector('.btnopen');
+            const svgClose = document.querySelector('.btnclose');
 
-            // Ẩn thẻ SVG dưới ban đầu
             svgClose.style.display = 'none';
 
-            // Khi nhấn vào thẻ SVG trên
             svgOpen.addEventListener('click', () => {
                 svgOpen.style.display = 'none';
                 svgClose.style.display = 'block';
             });
 
-            // Khi nhấn vào thẻ SVG dưới
             svgClose.addEventListener('click', () => {
-                svgClose.style.display = 'none'; // Ẩn thẻ SVG dưới
-                svgOpen.style.display = 'block'; // Hiển thị thẻ SVG trên
+                svgClose.style.display = 'none';
+                svgOpen.style.display = 'block';
             });
         });
 
