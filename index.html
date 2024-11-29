@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shiro neko</title>
+
+    <link rel="icon" type="image/x-icon" href="./images/Shironekologo.jpg">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="body-container">
+        <img class="elon-musk" src="./images/VRG_Illo_STK022_K_Radtke_Musk_Bolts.webp" alt="">
+        <nav class="navbar navbar-dark fixed-top">
+            <div class="container-fluid">
+                <div class="nav-icon">
+                    <img class="Sound_Off" src="./images/Sound Off T.png" alt="">
+                    <img class="Sound_On" src="./images/Sound On T.png" alt="">
+                    <div data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <svg class="btnopen" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                            viewBox="0,0,256,256">
+                            <g fill="#f9f6f6" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+
+                        <svg class="btnclose" data-bs-dismiss="offcanvas" aria-label="Close"
+                            xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40"
+                            viewBox="0,0,256,256">
+                            <g fill="#f9f6f6" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                style="mix-blend-mode: normal">
+                                <g transform="scale(10.66667,10.66667)">
+                                    <path
+                                        d="M4.99023,3.99023c-0.40692,0.00011 -0.77321,0.24676 -0.92633,0.62377c-0.15312,0.37701 -0.06255,0.80921 0.22907,1.09303l6.29297,6.29297l-6.29297,6.29297c-0.26124,0.25082 -0.36647,0.62327 -0.27511,0.97371c0.09136,0.35044 0.36503,0.62411 0.71547,0.71547c0.35044,0.09136 0.72289,-0.01388 0.97371,-0.27511l6.29297,-6.29297l6.29297,6.29297c0.25082,0.26124 0.62327,0.36648 0.97371,0.27512c0.35044,-0.09136 0.62411,-0.36503 0.71547,-0.71547c0.09136,-0.35044 -0.01388,-0.72289 -0.27512,-0.97371l-6.29297,-6.29297l6.29297,-6.29297c0.29576,-0.28749 0.38469,-0.72707 0.22393,-1.10691c-0.16075,-0.37985 -0.53821,-0.62204 -0.9505,-0.60988c-0.2598,0.00774 -0.50638,0.11632 -0.6875,0.30273l-6.29297,6.29297l-6.29297,-6.29297c-0.18827,-0.19353 -0.4468,-0.30272 -0.7168,-0.30273z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-start textcanvas" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-body body-cvs">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link" href="#">EPISODES</a>
+                            </li>
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link" href="#">HOW TO BUY</a>
+                            </li>
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link" href="/tokenomic.html">TOKENOMICS</a>
+                            </li>
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link" href="#">DEXTOOLS</a>
+                            </li>
+                            <li class="nav-item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 185 184"
+                                    fill="none">
+                                    <path
+                                        d="M94.9741 20.2963L111.671 59.9843C114.133 65.8337 118.786 70.487 124.635 72.9483L164.325 89.647C165.346 90.0763 165.346 91.5243 164.325 91.9537L124.635 108.652C118.786 111.114 114.133 115.767 111.671 121.616L94.9741 161.304C94.5448 162.326 93.0968 162.326 92.6661 161.304L75.9688 121.616C73.5075 115.767 68.8541 111.114 63.0048 108.652L23.3168 91.9537C22.2941 91.5243 22.2941 90.0763 23.3168 89.647L63.0048 72.9483C68.8541 70.487 73.5075 65.8337 75.9688 59.9843L92.6661 20.2963C93.0968 19.275 94.5448 19.275 94.9741 20.2963Z"
+                                        fill="#DC9285" />
+                                    <path
+                                        d="M92.578 0.160208L115.949 55.7082C118.41 61.5575 123.063 66.2109 128.913 68.6722L184.461 92.0429L128.913 115.414C123.063 117.874 118.41 122.527 115.949 128.378L92.578 183.926L69.2073 128.378C66.746 122.527 62.0926 117.874 56.2433 115.414L0.695312 92.0429L56.2433 68.6722C62.0926 66.2109 66.746 61.5575 69.2073 55.7082L92.578 0.160208Z"
+                                        fill="#DC9285" />
+                                </svg>
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-temp light">
+        </div>
+        <div class="bg-temp sofa">
+            <img class="cat-sf" src="./videos/compress.gif" alt="">
+        </div>
+        <div class="bg-temp TV">
+            <video class="video-bg" autoplay loop>
+                <source src="./videos/TV_Loop_V5_Static.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="bg-temp Pc-screen">
+        </div>
+        <div class="bg-temp Kitty_PiggyBank1">
+        </div>
+        <div class="bg-temp mob-BeanbagDirty">
+        </div>
+        <div class="bg-temp NanoLeaf_Light">
+        </div>
+        <div class="bg-temp Office_Chair1">
+        </div>
+        <div class="bg-temp Plant_pot">
+        </div>
+        <div class="bg-temp Plant">
+        </div>
+        <div class="bg-temp SL_bottle11">
+        </div>
+        <div class="bg-temp SL_bottle21">
+        </div>
+        <div class="bg-temp SL_bottle31">
+        </div>
+        <div class="link">
+            <a href=" https://x.com/shiro?s=21">
+                <img src="./images/icX.svg" alt="">
+            </a>
+            <a href="https://t.me/Shiro_Community">
+                <img src="./images/icTG.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const soundOffButton = document.querySelector('.Sound_Off');
+            const soundOnButton = document.querySelector('.Sound_On');
+            const video = document.querySelector('.video-bg');
+
+            soundOffButton.style.display = 'none';
+
+            // Khi nhấn nút Sound on
+            soundOnButton.addEventListener('click', () => {
+                video.muted = false; // Bật âm thanh
+                soundOnButton.style.display = 'none';
+                soundOffButton.style.display = 'block';
+            });
+
+            // Khi nhấn nút Sound On
+            soundOffButton.addEventListener('click', () => {
+                video.muted = true;
+                soundOffButton.style.display = 'none';
+                soundOnButton.style.display = 'block';
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const svgOpen = document.querySelector('.btnopen'); // Thẻ SVG trên
+            const svgClose = document.querySelector('.btnclose'); // Thẻ SVG dưới
+
+            // Ẩn thẻ SVG dưới ban đầu
+            svgClose.style.display = 'none';
+
+            // Khi nhấn vào thẻ SVG trên
+            svgOpen.addEventListener('click', () => {
+                svgOpen.style.display = 'none';
+                svgClose.style.display = 'block';
+            });
+
+            // Khi nhấn vào thẻ SVG dưới
+            svgClose.addEventListener('click', () => {
+                svgClose.style.display = 'none'; // Ẩn thẻ SVG dưới
+                svgOpen.style.display = 'block'; // Hiển thị thẻ SVG trên
+            });
+        });
+
+
+
+    </script>
+</body>
+
+</html>

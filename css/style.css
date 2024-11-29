@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+html {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(180, 172, 172, 0.1);
+    border-radius: 10px;
+}
+
+.body-container {
+    height: 100vh;
+    width: calc(100vh * 2.015);
+    background: url('../images/bgp-3.webp') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: visible;
+    position: relative;
+}
+
+.link {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.bg-temp {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.sofa {
+    z-index: 1;
+    background: url(../images/Couch.webp) no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.cat-sf {
+    width: 43%;
+    position: absolute;
+    top: 39%;
+    left: 17%;
+}
+
+.TV {
+    background: url(../images/mob-tv-v2.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.video-bg {
+    position: absolute;
+    top: 29.6%;
+    left: 43.2%;
+    width: 19.2%;
+    height: 22%;
+    /* z-index: -1; */
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.Pc-screen {
+    background: url(../images/mob-PC_Screen.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.light {
+    background: url(../images/Ceiling_Light_On.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.Kitty_PiggyBank1 {
+    background: url(../images/Kitty_PiggyBank1.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.HODL-Poster-Trippy-Extra {
+    background: url(../images/HODL_Poster_Trippy_Extra.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.mob-BeanbagDirty {
+    background: url(../images/mob-Beanbag&Dirty.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.NanoLeaf_Light {
+    background: url(../images/NanoLeaf_Light.png) no-repeat center center;
+    background-size: cover;
+    opacity: 50%;
+}
+
+.Office_Chair1 {
+    background: url(../images/Office_Chair1.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.Plant_pot {
+    background: url(../images/Plant_pot.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.Plant {
+    background: url(../images/Plant.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.SL_bottle11 {
+    background: url(../images/SL_Bottle11.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.SL_bottle21 {
+    background: url(../images/SL_bottle21.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.SL_bottle31 {
+    background: url(../images/SL_bottle31.webp) no-repeat center center;
+    background-size: cover;
+}
+
+.Sound_Off,
+.Sound_On {
+    width: 60px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.nav-icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnclose {
+    position: relative;
+    z-index: 100000;
+    overflow: auto;
+}
+
+.offcanvas.offcanvas-start {
+    transform: translateX(-100%) !important;
+    transition: transform 0.1s ease-in-out !important;
+}
+
+.offcanvas.show {
+    transform: translateX(0) !important;
+}
+
+.textcanvas {
+    color: aliceblue;
+    background: transparent !important;
+}
+
+.body-cvs {
+    background: #1e1e1e;
+    width: 80%;
+    height: 100%;
+    /* position: absolute; */
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 4px solid #dc9285;
+    border-top: 4px solid #dc9285;
+    border-bottom: 4px solid #dc9285;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.body-cvs::after {
+    content: '';
+    background: url(../images/sadsad.webp) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 70px;
+    height: 144px;
+    left: 76%;
+    top: calc(50% - (144px / 2))
+}
+
+.navbar-nav {
+    gap: 35px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item a {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.btn-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    /* width: 40px !important;
+    height: 40px !important; */
+}
+
+.navbar-toggler.hidden {
+    display: none;
+}
+
+.elon-musk {
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+    width: 15%;
+    left: 61.8%;
+    top: 20%;
+
+}
