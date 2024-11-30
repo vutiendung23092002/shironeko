@@ -142,8 +142,7 @@
             <img class="cat-sf" src="./videos/compress.gif" alt="">
         </div>
         <div class="bg-temp TV">
-            <video class="video-bg" autoplay loop>
-                <source src="./videos/TV_Loop_V5_Static.mp4" type="video/mp4">
+            <video class="video-bg" src="./videos/TV_Loop_V5_Static.mp4" type="video/mp4" autoplay loop>
             </video>
         </div>
         <div class="bg-temp Pc-screen">
@@ -187,13 +186,13 @@
             soundOffButton.style.display = 'none';
 
             soundOnButton.addEventListener('click', () => {
-                video.muted = false;
+                video.muted = true;
                 soundOnButton.style.display = 'none';
                 soundOffButton.style.display = 'block';
             });
 
             soundOffButton.addEventListener('click', () => {
-                video.muted = true;
+                video.muted = false;
                 soundOffButton.style.display = 'none';
                 soundOnButton.style.display = 'block';
             });
@@ -216,6 +215,12 @@
             });
         });
 
+        document.addEventListener('DOMContentLoaded', () => {
+            const video = document.querySelector('.video-bg');
+            video.play().catch(error => {
+                console.error('Video không tự phát được:', error);
+            });
+        });
 
 
     </script>

@@ -174,11 +174,6 @@ html {
     overflow: auto;
 }
 
-.offcanvas.offcanvas-start {
-    transform: translateX(-100%) !important;
-    transition: transform 0.1s ease-in-out !important;
-}
-
 .offcanvas.show {
     transform: translateX(0) !important;
 }
